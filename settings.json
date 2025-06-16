@@ -1,0 +1,54 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "tab.border": "#3b3836"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSaveMode": "modifications",
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyle": "line",
+  "rainbow_csv.highlight_rows": true,
+  "[csv]": {
+    "editor.inlayHints.maximumLength": 0
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[sql]": {
+    "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.log": "default"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.minimap.enabled": false,
+  "compareFolders.diffViewTitle": "full path",
+  "compareFolders.excludeFilter": [
+    "/.git",
+    "/build"
+  ],
+  "compareFolders.useDiffMerge": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.wrapTabs": true,
+  "debug.console.wordWrap": false,
+}
