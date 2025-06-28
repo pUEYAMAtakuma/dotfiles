@@ -1,12 +1,16 @@
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/dynamic_daikon/.rd/bin:$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
-export DOTNET_ROOT=$HOME/usr/local/share/dotnet/dotnet
+export PATH="/Users/dynamic_daikon/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export PATH="$(brew --prefix python)/libexec/bin:$PATH"
 
 
 export CLICOLOR=1
 
 echo hello!
+
+# my aliases
+alias dc='docker-compose'
+alias actvenv='source ~/.python/venv/bin/activate'
 
 PROMPT="%F{208}%n%f %F{226}%f:%F{078}%~%f"$'\n'"%# "
 

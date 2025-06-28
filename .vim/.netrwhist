@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/dynamic_daikon/Downloads'
+let g:netrw_dirhist_9='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing/hounet/webapp/api/receiptReconciliation/service'
+let g:netrw_dirhist_8='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing/hounet/webapp/api/receiptReconciliation'
+let g:netrw_dirhist_7='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing/hounet/webapp/api'
+let g:netrw_dirhist_6='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing/hounet/webapp'
+let g:netrw_dirhist_5='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing/hounet'
+let g:netrw_dirhist_4='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com/housing'
+let g:netrw_dirhist_3='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java/com'
+let g:netrw_dirhist_2='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main/java'
+let g:netrw_dirhist_1='/Users/dynamic_daikon/git/shn/shinkikan/bo/backend/src/main'
