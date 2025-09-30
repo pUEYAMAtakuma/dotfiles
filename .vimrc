@@ -1,6 +1,8 @@
 " Ward off unexpected things that your distro might have made, as
 " well as sanely reset options when re-sourcing .vimrc
 set nocompatible
+set number
+set cursorline
 
 " Set dein base path (required)
 let s:dein_base = '~/.local/share/dein/'
@@ -40,6 +42,9 @@ colorscheme gruvbox
 set background=dark
 set t_Co=256            " gruvboxをカラースキーマにするときの設定
 let g:ligthline = { 'colorscheme': 'gruvbox' }
+highlight Normal     ctermbg=NONE guibg=NONE
+highlight LineNr     ctermbg=NONE guibg=NONE
+highlight SignColumn ctermbg=NONE guibg=NONE
 " === gruvbox ===
 
 " Uncomment if you want to install not-installed plugins on startup.
