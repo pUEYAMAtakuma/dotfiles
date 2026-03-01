@@ -1,0 +1,13 @@
+.env
+.DS_Store
+.vscode/settings.json
+.vscode/style.css
+import*.log
+import*.sql
+import*.sh
+insert*.sql
+extract_inserts.sh
+build.gradle
+gradle.properties
+src/main/resources/templates/
+gradle/wrapper/

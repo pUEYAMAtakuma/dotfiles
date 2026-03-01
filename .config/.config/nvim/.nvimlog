@@ -1,0 +1,7 @@
+WRN 2026-03-01T23:56:54.971 ?.3819     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/YvnJKN/nvim.3819.0
+WRN 2026-03-01T23:59:34.312 ?.4222     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/8bMWXo/nvim.4222.0
+WRN 2026-03-01T23:59:37.596 ?.4236     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/NRuEXR/nvim.4236.0
+WRN 2026-03-02T00:03:53.336 ?.4970     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/HvTFPB/nvim.4970.0
+WRN 2026-03-02T00:04:06.572 ?.5007     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/zCYQTC/nvim.5007.0
+WRN 2026-03-02T00:04:26.296 ?.5066     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/2rXR3m/nvim.5066.0
+WRN 2026-03-02T00:10:06.923 ?.5939     server_start:193: Failed to start server: operation not permitted: /var/folders/ws/xdgys4y917x5pl04g7l818fc0000gn/T/nvim.dynamic_daikon/eyXYvf/nvim.5939.0

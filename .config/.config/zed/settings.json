@@ -1,0 +1,157 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "active_pane_modifiers": {
+    "inactive_opacity": 0.4
+  },
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "scroll_beyond_last_line": "one_page",
+  "show_edit_predictions": false,
+  "file_finder": {
+    "modal_max_width": "medium"
+  },
+  "search": {
+    "include_ignored": true
+  },
+  "title_bar": {
+    "show_branch_icon": true
+  },
+  "confirm_quit": true,
+  "project_panel": {
+    "indent_size": 20.0
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "inlay_hints": {
+    "show_background": false
+  },
+  "show_whitespaces": "selection",
+  "always_treat_brackets_as_autoclosed": true,
+  "format_on_save": "off",
+  "tab_size": 2,
+  "ui_font_family": ".ZedMono",
+  "buffer_font_family": "Hack Nerd Font",
+  "git_panel": {
+    "status_style": "label_color",
+    "dock": "left"
+  },
+  "icon_theme": "Material Icon Theme",
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 12,
+  "theme": "Kanagawa",
+  "cursor_blink": true,
+  "cursor_shape": "bar",
+  "lsp": {
+    "jdtls": {
+      "initialization_options": {
+        "bundles": [],
+        "workspaceFolders": ["file:///home/snjeza/Project"]
+      },
+      "settings": {
+        "java": {
+          "home": "/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home",
+          "errors": {
+            "incompleteClasspath": {
+              "severity": "warning"
+            }
+          },
+          "configuration": {
+            "updateBuildConfiguration": "interactive",
+            "maven": {
+              "userSettings": null
+            }
+          },
+          "trace": {
+            "server": "verbose"
+          },
+          "import": {
+            "gradle": {
+              "enabled": true
+            },
+            "maven": {
+              "enabled": true
+            },
+            "exclusions": [
+              "**/node_modules/**",
+              "**/.metadata/**",
+              "**/archetype-resources/**",
+              "**/META-INF/maven/**",
+              "/**/test/**"
+            ]
+          },
+          "jdt": {
+            "ls": {
+              "lombokSupport": {
+                "enabled": true // Set this to true to enable lombok support
+              }
+            }
+          },
+          "referencesCodeLens": {
+            "enabled": true
+          },
+          "signatureHelp": {
+            "enabled": true
+          },
+          "implementationsCodeLens": {
+            "enabled": false
+          },
+          "format": {
+            "enabled": true,
+            "settings": {
+              "url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+              "profile": "GoogleStyle"
+            }
+          },
+          "compile": {
+            "nullAnalysis": {
+              "mode": "disabled"
+            }
+          },
+          "saveActions": {
+            "organizeImports": false
+          },
+          "contentProvider": {
+            "preferred": null
+          },
+          "autobuild": {
+            "enabled": false
+          },
+          "completion": {
+            "favoriteStaticMembers": [
+              "org.junit.Assert.*",
+              "org.junit.Assume.*",
+              "org.junit.jupiter.api.Assertions.*",
+              "org.junit.jupiter.api.Assumptions.*",
+              "org.junit.jupiter.api.DynamicContainer.*",
+              "org.junit.jupiter.api.DynamicTest.*"
+            ],
+            "importOrder": ["java", "javax", "com", "org"]
+          }
+        }
+      }
+    }
+  },
+  "languages": {
+    "Java": {
+      "show_edit_predictions": false,
+      "formatter": "language_server"
+    }
+  }
+}
